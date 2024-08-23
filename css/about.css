@@ -1,0 +1,75 @@
+ /*
+Theme Name: WpTheme
+Description: Information Technology (IT) is a field dedicated to the use, development, and management of computer systems and software to process and distribute information. IT plays a crucial role in virtually every industry, facilitating communication, data management, and operational efficiency. Here's a closer look at some key aspects of IT.
+Author: TechTrakker
+Version: 1.0
+*/
+#ech_one {
+    text-align: center;
+    padding-top: 34px;
+
+}
+#ab_h2{
+    color: red;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#more_ab_1{
+    color: #000;
+    text-align: justify;
+    /* text-align: center; */
+}
+#ab_h3{
+color: red;
+font-weight: bold;
+}
+.more_about{
+    padding: 5%;
+    margin: 17px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.1);  
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+#m-card1 {
+    flex-direction: column;
+}
+
+#ab-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.more_about {
+    padding: 3%;
+    margin: 10px;
+}
+}
+
+@media (max-width: 480px) {
+#m-card1 {
+    margin: 10px;
+}
+
+#ab-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.more_about {
+    padding: 2%;
+    margin: 5px;
+}
+
+#ech_one {
+    font-size: 1.5em;
+}
+
+#ab_h2, #ab_h3 {
+    font-size: 1.2em;
+}
+
+#more_ab_1 {
+    font-size: 0.9em;
+}
+}

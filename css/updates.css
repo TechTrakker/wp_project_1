@@ -1,0 +1,149 @@
+.lo_go_cont_1 {
+    width: 120px;
+    /* Circle diameter */
+    height: 120px;
+    /* Circle diameter */
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.l_o_g_o {
+    width: 100%;
+    height: auto;
+}
+
+.code-log {
+    display: flex;
+    margin: 20px;
+    padding: 4px;
+}
+
+#lo_go1 {
+    color: #000;
+}
+
+#lo_go2 {
+    color: #000;
+}
+
+.logo-btn {
+    display: flex;
+}
+
+#btn_log1 {
+    background-color: blue;
+    width: 240px;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    margin: 8px;
+
+}
+
+#btn_log2 {
+    background-color: blue;
+    width: 240px;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    margin: 8px;
+
+}
+
+/* Next Section_1 */
+.lo_go_cont_2 {
+    width: 70px;
+    /* Circle diameter */
+    height: 70px;
+    /* Circle diameter */
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#main_para_1{
+    /* width: 50%; */
+        /* margin: 0 auto; */
+        /* text-align: justify; */
+         /* justify-content: center; */
+         /* text-align: center; */
+}
+.main_sect_1{
+    display: flex;
+}
+.main_Un_q1{
+    height: 100%;
+    width: 50%;
+    padding-left: 2%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.1);  
+}
+.main_Un_q2{
+height: 100%;
+width: 50%;
+padding-right: 4%;
+margin-left: 2%;
+margin-bottom: 4%;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.1);  
+
+}
+#deco_ration{
+color: #000;
+ padding-left: 2px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+.code-log {
+    flex-direction: column;
+    align-items: center;
+}
+
+.lo_go_cont_1, .lo_go_cont_2 {
+    width: 100px;
+    height: 100px;
+}
+
+.main_sect_1 {
+    flex-direction: column;
+}
+
+.main_Un_q1, .main_Un_q2 {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#btn_log1, #btn_log2 {
+    width: auto;
+}
+}
+
+@media (max-width: 480px) {
+header {
+    padding: 0.5rem;
+}
+
+.code-log {
+    margin: 10px;
+}
+
+.lo_go_cont_1, .lo_go_cont_2 {
+    width: 80px;
+    height: 80px;
+}
+
+.main_Un_q1, .main_Un_q2 {
+    padding: 10px;
+}
+
+#btn_log1, #btn_log2 {
+    padding: 8px;
+}
+}

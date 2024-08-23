@@ -1,0 +1,107 @@
+/*
+Theme Name: WpTheme
+Description: Information Technology (IT) is a field dedicated to the use, development, and management of computer systems and software to process and distribute information. IT plays a crucial role in virtually every industry, facilitating communication, data management, and operational efficiency. Here's a closer look at some key aspects of IT.
+Author: TechTrakker
+Version: 1.0
+*/
+#e_ch{
+    text-align: center;
+    padding-top: 34px;
+}
+.con_ta{
+    padding: 63px;
+    background-color:whitesmoke;
+    margin: 45px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.1);  
+}
+form input[type="text"],
+[type="email"],[type="number"] {
+   border: 1px solid black;
+   border-radius: none;
+   margin: 8px;
+   padding: 4px;
+   height: 43px;
+   width: 100%;
+   font-size: 14px;
+
+}
+#phone{
+width: 100%;
+height: 43px;
+border: 1px solid black;
+border-radius: 14px;
+}
+#linkedin{
+width: 100%;
+height:43px;
+border: 1px solid black;
+border-radius: 14px;
+}
+#btn{
+background-color: green;
+color: white;
+font-size: 19px;
+margin: 12px;
+padding: 8px;
+border: none;
+width: 125px;
+font-weight: bold;
+}
+ 
+/* RESPONSIVE STYLE */
+.contain_er {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+text-align: center;
+}
+
+#e_ch {
+font-size: 2.5rem;
+margin-bottom: 20px;
+}
+
+#pa_ra {
+font-size: 1.2rem;
+margin-bottom: 20px;
+}
+
+/* Responsive Video Wrapper */
+.video-wrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+height: 0;
+overflow: hidden;
+max-width: 100%;
+background: #000;
+margin: 0 auto;
+}
+
+.video-wrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/* Responsive Text */
+@media (max-width: 768px) {
+#e_ch {
+    font-size: 2rem;
+}
+
+#pa_ra {
+    font-size: 1rem;
+}
+}
+
+@media (max-width: 480px) {
+#e_ch {
+    font-size: 1.5rem;
+}
+
+#pa_ra {
+    font-size: 0.9rem;
+}
+}
